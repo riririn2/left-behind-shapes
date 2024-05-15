@@ -26,13 +26,13 @@ export default function Home() {
     <div className="mx-96 px-60" dangerouslySetInnerHTML={htmlPart2}/>
     <div className="relative">
     <Parallax className="absolute" speed={-15}>
-      <Image src='illust2-1.png' width={600} height={700}/>
+      <Image src='illust2-3.png' width={600} height={700}/>
     </Parallax>
     <Parallax className="absolute" speed={-10}>
       <Image src='illust2-2.png' width={600} height={700}/>
     </Parallax>
     <Parallax  speed={25}>
-      <Image src='illust2-3.png' width={600} height={700}/>
+      <Image src='illust2-1.png' width={600} height={700}/>
     </Parallax>
     </div>
     <div className="mx-96 px-60" dangerouslySetInnerHTML={htmlPart3}/>
