@@ -41,7 +41,7 @@ export default function Home() {
       <Image src='illust3-2.png' width={600} height={500}/>
     </Parallax>
     <Parallax  className="absolute" speed={15}>
-      <Image src='illust3-1.png' width={600} height={500}/>
+      <Image src='illust3-3.png' width={600} height={500}/>
     </Parallax>
     <Parallax speed={10}>
       <Image src='illust3-1.png' width={600} height={500}/>
