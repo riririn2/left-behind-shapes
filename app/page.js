@@ -17,34 +17,34 @@ export default function Home() {
     <div className="mx-96 px-60" dangerouslySetInnerHTML={htmlPart1}/>
     <div className="relative" >
     <Parallax className="absolute" speed={10}>
-      <Image src='public\illust1-1.png' width={600} height={500}/>
+      <Image src='illust1-1.png' width={600} height={500}/>
     </Parallax>
     <Parallax speed={-10}>
-      <Image src='public\illust1-2.png' width={600} height={500}/>
+      <Image src='illust1-2.png' width={600} height={500}/>
     </Parallax>
     </div>
     <div className="mx-96 px-60" dangerouslySetInnerHTML={htmlPart2}/>
     <div className="relative">
     <Parallax className="absolute" speed={-15}>
-      <Image src='public\illust2-1.png' width={600} height={700}/>
+      <Image src='illust2-1.png' width={600} height={700}/>
     </Parallax>
     <Parallax className="absolute" speed={-10}>
-      <Image src='public\illust2-2.png' width={600} height={700}/>
+      <Image src='illust2-2.png' width={600} height={700}/>
     </Parallax>
     <Parallax  speed={25}>
-      <Image src='public\illust2-3.png' width={600} height={700}/>
+      <Image src='illust2-3.png' width={600} height={700}/>
     </Parallax>
     </div>
     <div className="mx-96 px-60" dangerouslySetInnerHTML={htmlPart3}/>
     <div className="relative">
     <Parallax  className="absolute" speed={30}>
-      <Image src='public\illust3-2.png' width={600} height={500}/>
+      <Image src='illust3-2.png' width={600} height={500}/>
     </Parallax>
     <Parallax  className="absolute" speed={15}>
-      <Image src='public\illust3-1.png' width={600} height={500}/>
+      <Image src='illust3-1.png' width={600} height={500}/>
     </Parallax>
     <Parallax speed={10}>
-      <Image src='public\illust3-1.png' width={600} height={500}/>
+      <Image src='illust3-1.png' width={600} height={500}/>
     </Parallax>
     </div>    
       
