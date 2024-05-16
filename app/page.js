@@ -38,7 +38,7 @@ export default function Home() {
     </div>
     <div dangerouslySetInnerHTML={htmlPart3}/>
     <div className="relative">
-    <Parallax  className="absolute" speed={-5}>
+    <Parallax  className="absolute" speed={-1}>
       <Image src='illust3-2.png' width={600} height={500}/>
     </Parallax>
     <Parallax  className="absolute" speed={5}>
