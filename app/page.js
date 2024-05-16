@@ -14,7 +14,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-fixed" 
     >
     <Parallax speed={5}><h1 className="mt-40 text-8xl font-thin">Left-behind shapes</h1></Parallax>
-    <div className="mx-96 px-60" dangerouslySetInnerHTML={htmlPart1}/>
+    <div className="min-w-96 w-1/4">
+    <div dangerouslySetInnerHTML={htmlPart1}/>
     <div className="relative" >
     <Parallax className="absolute" speed={10}>
       <Image src='illust1-1.png' width={600} height={500}/>
@@ -23,7 +24,7 @@ export default function Home() {
       <Image src='illust1-2.png' width={600} height={500}/>
     </Parallax>
     </div>
-    <div className="mx-96 px-60" dangerouslySetInnerHTML={htmlPart2}/>
+    <div dangerouslySetInnerHTML={htmlPart2}/>
     <div className="relative">
     <Parallax className="absolute" speed={-15}>
       <Image src='illust2-3.png' width={600} height={700}/>
@@ -35,7 +36,7 @@ export default function Home() {
       <Image src='illust2-1.png' width={600} height={700}/>
     </Parallax>
     </div>
-    <div className="mx-96 px-60" dangerouslySetInnerHTML={htmlPart3}/>
+    <div dangerouslySetInnerHTML={htmlPart3}/>
     <div className="relative">
     <Parallax  className="absolute" speed={30}>
       <Image src='illust3-2.png' width={600} height={500}/>
@@ -46,7 +47,8 @@ export default function Home() {
     <Parallax speed={10}>
       <Image src='illust3-1.png' width={600} height={500}/>
     </Parallax>
-    </div>    
+    </div>   </div>
+     
       
     </main>
   );
